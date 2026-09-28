@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i 's/enum class GuideCapabilityStatus {/enum class GuideCapabilityStatus {\n    NOT_APPLIED,\n    DRAFT,\n    SUBMITTED,\n    UNDER_REVIEW,\n    NEEDS_MORE_INFORMATION,\n    INTERVIEW_REQUIRED,\n    TRAINING_REQUIRED,\n    TRAINING_COMPLETED,\n    APPROVED,\n    ACTIVE,\n    SUSPENDED,\n    REJECTED,\n    DEACTIVATED\n}\n\n\/\/ Removed old GuideCapabilityStatus/g' app/src/main/java/com/example/data/model/Models.kt

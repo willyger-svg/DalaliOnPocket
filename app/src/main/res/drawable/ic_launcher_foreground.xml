@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Safe zone 66dp centered (x: 21 to 87, y: 21 to 87) -->
+    <!-- House Roof / Pinnacle in Warm Ochre Gold -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M54,26 L80,48 L73,54 L54,38 L35,54 L28,48 Z" />
+
+    <!-- House Body Structure in Crisp White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,51 L74,51 L74,78 C74,80 72,82 70,82 L38,82 C36,82 34,80 34,78 Z" />
+
+    <!-- Door / Vault Portal in Deep Navy -->
+    <path
+        android:fillColor="#0A192F"
+        android:pathData="M48,62 L60,62 L60,82 L48,82 Z" />
+
+    <!-- Trust Green Verification Shield / Check Badge in Upper Right -->
+    <path
+        android:fillColor="#059669"
+        android:pathData="M65,30 C65,30 75,27 82,31 C82,38 78,46 72,49 C66,46 64,38 65,30 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M69,38 L72,41 L78,34"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Golden Dalali Pocket Key / Compass Point -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M42,60 C44.2,60 46,58.2 46,56 C46,53.8 44.2,52 42,52 C39.8,52 38,53.8 38,56 C38,58.2 39.8,60 42,60 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M42,60 L42,68 L45,68"
+        android:strokeWidth="1.5"
+        android:strokeColor="#F59E0B"
+        android:strokeLineCap="round" />
+</vector>

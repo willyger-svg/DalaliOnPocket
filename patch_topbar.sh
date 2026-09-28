@@ -1,0 +1,22 @@
+#!/bin/bash
+cat << 'INNER_EOF' > topbar.patch
+--- app/src/main/java/com/example/MainActivity.kt
++++ app/src/main/java/com/example/MainActivity.kt
+@@ -215,6 +215,7 @@
+ 
+                             Spacer(modifier = Modifier.width(6.dp))
+ 
++                            if (currentUser.activeMode != UserRole.CUSTOMER) {
+                             // Capability Mode Selector button (Customer / Owner / Guide with Role Color Pill)
+                             Surface(
+                                 shape = RoundedCornerShape(12.dp),
+@@ -250,6 +251,7 @@
+                                         modifier = Modifier.padding(start = 6.dp)
+                                     )
+                                 }
++                            }
+                             }
+                         }
+                     )
+INNER_EOF
+patch app/src/main/java/com/example/MainActivity.kt topbar.patch

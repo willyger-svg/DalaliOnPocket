@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i 's/val mockProperty = PropertyRepository.properties.value.first()/val bookingCode = "MOCK-" + (1000..9999).random()\n        val mockJob = ViewingBooking(bookingCode, "PROP-123", "Masaki House", "Masaki", "CUST-1", "John Doe", ViewingType.DOP_ASSISTED_VISIT, "2023-11-01", "10:00", "Gate", ViewingStatus.REQUESTED)\n        PropertyRepository.javaClass.getDeclaredField("_viewingBookings").apply { isAccessible = true }.set(PropertyRepository, kotlinx.coroutines.flow.MutableStateFlow(listOf(mockJob)))\n/g' app/src/test/java/com/example/GuideDispatchTest.kt

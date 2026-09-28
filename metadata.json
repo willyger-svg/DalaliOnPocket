@@ -1,0 +1,6 @@
+{
+  "name": "Dalalion Pocket",
+  "description": "Tanzania-first digital property marketplace connecting customers, owners, and DoP guides with assisted viewings and virtual tours.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

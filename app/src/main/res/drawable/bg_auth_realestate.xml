@@ -1,0 +1,65 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="800dp"
+    android:viewportWidth="400"
+    android:viewportHeight="800">
+
+    <!-- Gradient Background -->
+    <path android:pathData="M0,0h400v800h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="800"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF0A192F" />
+                <item android:offset="0.45" android:color="#FF112240" />
+                <item android:offset="0.8" android:color="#FF1E3A5F" />
+                <item android:offset="1" android:color="#FF0A192F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Warm Ambient Sunset Glow -->
+    <path
+        android:pathData="M-50,150 a250,250 0 1,0 500,0 a250,250 0 1,0 -500,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="200"
+                android:centerY="150"
+                android:gradientRadius="250"
+                android:type="radial">
+                <item android:offset="0" android:color="#33D97706" />
+                <item android:offset="0.6" android:color="#15D97706" />
+                <item android:offset="1" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Architectural Silhouettes (Modern Villa & Apartment Towers) -->
+    <!-- Tower Left -->
+    <path
+        android:fillColor="#1AFFFFFF"
+        android:pathData="M40,240 h60 v360 h-60 z" />
+    <path
+        android:fillColor="#25D97706"
+        android:pathData="M48,260 h15 v20 h-15 z M75,260 h15 v20 h-15 z M48,300 h15 v20 h-15 z M75,300 h15 v20 h-15 z M48,340 h15 v20 h-15 z M75,340 h15 v20 h-15 z M48,380 h15 v20 h-15 z M75,380 h15 v20 h-15 z" />
+
+    <!-- Center Main Villa & Balconies -->
+    <path
+        android:fillColor="#22FFFFFF"
+        android:pathData="M120,180 h160 v420 h-160 z" />
+    <path
+        android:fillColor="#33D97706"
+        android:pathData="M130,200 h140 v8 h-140 z M130,250 h140 v8 h-140 z M130,300 h140 v8 h-140 z M130,350 h140 v8 h-140 z" />
+    <path
+        android:fillColor="#30FFFFFF"
+        android:pathData="M140,215 h50 v25 h-50 z M210,215 h50 v25 h-50 z M140,265 h50 v25 h-50 z M210,265 h50 v25 h-50 z" />
+
+    <!-- Palm Tree Silhouette Accent -->
+    <path
+        android:fillColor="#15059669"
+        android:pathData="M340,320 Q335,260 310,220 Q325,235 345,245 Q360,215 375,210 Q365,230 350,250 Q385,250 395,270 Q370,265 350,260 L352,420 L342,420 Z" />
+</vector>
